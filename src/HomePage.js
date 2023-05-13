@@ -1,20 +1,20 @@
 import React from 'react';
-import { Button, AppBar, Toolbar } from '@material-ui/core';
+import { Button, AppBar, Toolbar, Box } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
-    <div>
+    <Box>
       <AppBar position="static">
         <Toolbar>
-          <Button color="inherit">About Me</Button>
-          <Button color="inherit">Contact</Button>
-          <Button color="inherit">My Skills</Button>
+          <Button color="inherit" component={Link} to="/aboutme">About Me</Button>
         </Toolbar>
       </AppBar>
-      <div>
+      <Box>
+        homepage
         {/* Your main content goes here */}
-      </div>
-    </div>
+      </Box>
+    </Box>
   );
 }
 
