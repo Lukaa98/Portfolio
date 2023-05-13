@@ -6,10 +6,10 @@ function Header() {
   return (
     <AppBar position="static">
       <Toolbar>
-        <Button color="inherit" component={Link} to="Portfolio/home">Home</Button>
-        <Button color="inherit" component={Link} to="Portfolio/aboutme">About Me</Button>
-        <Button color="inherit" component={Link} to="Portfolio/myskills">My Skills</Button>
-        <Button color="inherit" component={Link} to="Portfolio/contactme">Contact Me</Button>
+        <Button color="inherit" component={Link} to="/Portfolio/home">Home</Button>
+        <Button color="inherit" component={Link} to="/Portfolio/aboutme">About Me</Button>
+        <Button color="inherit" component={Link} to="/Portfolio/myskills">My Skills</Button>
+        <Button color="inherit" component={Link} to="/Portfolio/contactme">Contact Me</Button>
       </Toolbar>
     </AppBar>
   )
