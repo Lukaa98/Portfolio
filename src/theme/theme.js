@@ -13,7 +13,7 @@ export const darkTheme = {
       primary: '#ffffff',
     },
   },
-};
+}
 
 export const lightTheme = {
   palette: {

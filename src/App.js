@@ -15,17 +15,18 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <ThemeProviderWrapper>
-        <Header />
-        <Routes>
-          <Route path="/" element={<MyHome />} />
-          <Route path="/about" element={<AboutMe />} />
-          <Route path="/myskills" element={<MySkills />} />
-          <Route path="/contactme" element={<ContactMe />} />
-        </Routes>
-      </ThemeProviderWrapper>
+      <Router>
+        <ThemeProviderWrapper>
+          <Header />
+          <Routes>
+            <Route path="/" element={<MyHome />} />
+            <Route path="/about" element={<AboutMe />} />
+            <Route path="/myskills" element={<MySkills />} />
+            <Route path="/contactme" element={<ContactMe />} />
+          </Routes>
+        </ThemeProviderWrapper>
+      </Router>
     </ThemeProvider>
   )
 }
-
 export default App
