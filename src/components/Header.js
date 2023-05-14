@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { AppBar, Toolbar, Button, Switch } from '@mui/material'
 import { Link } from 'react-router-dom'
 import Brightness4Icon from '@mui/icons-material/Brightness4'
-import { ThemeContext } from './ThemeProvider'
+import { ThemeContext } from '../theme/ThemeProvider'
 
 function Header() {
   const { darkMode, toggleDarkMode } = useContext(ThemeContext)
