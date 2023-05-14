@@ -15,7 +15,6 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Router>
         <ThemeProviderWrapper>
           <Header />
           <Routes>
@@ -25,7 +24,6 @@ function App() {
             <Route path="/contactme" element={<ContactMe />} />
           </Routes>
         </ThemeProviderWrapper>
-      </Router>
     </ThemeProvider>
   )
 }
