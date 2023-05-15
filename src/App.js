@@ -7,6 +7,7 @@ import MySkills from './pages/MySkills'
 import ContactMe from './pages/ContactMe'
 import ThemeProviderWrapper from './theme/ThemeProvider'
 import { ThemeProvider, createTheme } from '@mui/material/styles'
+import MouseCircle from './components/MouseCircle'
 
 function App() {
   const theme = createTheme({
@@ -16,6 +17,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
         <ThemeProviderWrapper>
+          <MouseCircle />
           <Header />
           <Routes>
             <Route path="/" element={<MyHome />} />
