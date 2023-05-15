@@ -1,31 +1,3 @@
-// // import { createCss } from '@mui/system'
-
-// // const css = createCss();
-
-// const bounceAnimation = css.keyframes({
-//   '0%': {
-//     transform: 'translateY(0)',
-//   },
-//   '20%': {
-//     transform: 'translateY(0)',
-//   },
-//   '40%': {
-//     transform: 'translateY(-30px)',
-//   },
-//   '50%': {
-//     transform: 'translateY(0)',
-//   },
-//   '60%': {
-//     transform: 'translateY(-15px)',
-//   },
-//   '80%': {
-//     transform: 'translateY(0)',
-//   },
-//   '100%': {
-//     transform: 'translateY(0)',
-//   },
-// });
-
 export const darkTheme = {
   palette: {
     primary: {
@@ -41,13 +13,6 @@ export const darkTheme = {
       primary: '#ffffff',
     },
   },
-  // typography: {
-  //   title: {
-  //     fontSize: '2rem',
-  //     fontWeight: 700,
-  //     animation: `${bounceAnimation} 1s ease infinite`,
-  //   },
-  // },
   mouseCircle: {
     width: '1000px',
     height: '1000px',
@@ -57,7 +22,21 @@ export const darkTheme = {
     pointerEvents: 'none',
     zIndex: -1,
     animation: 'pulse 2s infinite', // Add pulsing animation
-
+  },
+  bouncyText: {
+    display: 'inline',
+    fontSize: '5rem',
+    '& span': {
+      display: 'inline-block',
+      transition: '0.2s',
+      '&:hover': {
+        transform: 'translateY(-10px)',
+        color: 'blue',
+      },
+      '&:nth-child(odd):hover': {
+        transform: 'translateY(-15px)',
+      },
+    },
   },
 }
 
@@ -76,13 +55,6 @@ export const lightTheme = {
       primary: '#333333',
     },
   },
-  // typography: {
-  //   title: {
-  //     fontSize: '2rem',
-  //     fontWeight: 700,
-  //     animation: `${bounceAnimation} 1s ease infinite`,
-  //   },
-  // },
   mouseCircle: {
     width: '1000px',
     height: '1000px',
@@ -92,6 +64,20 @@ export const lightTheme = {
     pointerEvents: 'none',
     zIndex: -1,
     animation: 'pulse 2s infinite', // Add pulsing animation
-
+  },
+  bouncyText: {
+    display: 'inline',
+    fontSize: '5rem',
+    '& span': {
+      display: 'inline-block',
+      transition: '0.2s',
+      '&:hover': {
+        transform: 'translateY(-10px)',
+        color: 'blue',
+      },
+      '&:nth-child(odd):hover': {
+        transform: 'translateY(-15px)',
+      },
+    },
   },
 }
