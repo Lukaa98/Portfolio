@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { AppBar, Toolbar, Button, Switch } from '@mui/material'
+import { Toolbar, Button, Switch } from '@mui/material'
 import { Link } from 'react-router-dom'
 import Brightness4Icon from '@mui/icons-material/Brightness4'
 import { ThemeContext } from '../theme/ThemeProvider'
@@ -13,16 +13,15 @@ function Header() {
   }
 
   return (
-    <AppBar position="static">
-      <Toolbar>
-        <Button color="inherit" component={Link} to="/">Home</Button>
-        <Button color="inherit" component={Link} to="/about">About</Button>
-        <Button color="inherit" component={Link} to="/myskills">My Skills</Button>
-        <Button color="inherit" component={Link} to="/contactme">Contact Me</Button>
-        <Switch checked={darkMode} onChange={handleToggleDarkMode} color="secondary" />
-        <Brightness4Icon />
+      <Toolbar sx={{ display: 'flex', justifyContent: 'flex-end' }}>
+        <Button color="inherit" component={Link} to="/" sx={{ marginRight: '45vw', fontSize: '2rem', }}>{'</LUKA>'}</Button>
+        <Button color="inherit" component={Link} to="/" sx={{ marginRight: '3vw', fontSize: '2rem', }}>Home</Button>
+        <Button color="inherit" component={Link} to="/about" sx={{ marginRight: '3vw', fontSize: '2rem', }}>About</Button>
+        <Button color="inherit" component={Link} to="/myskills" sx={{ marginRight: '3vw', fontSize: '2rem', }}>Skills</Button>
+        <Button color="inherit" component={Link} to="/contactme" sx={{ marginRight: '3vw', fontSize: '2rem', }}>Contact</Button>
+        <Switch checked={darkMode} onChange={handleToggleDarkMode} color="secondary"  />
+        <Brightness4Icon sx={{ marginLeft: '1vw' }} />
       </Toolbar>
-    </AppBar>
   )
 }
 
