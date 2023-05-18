@@ -25,7 +25,7 @@ function AboutMe() {
             text="About Me"
             fontFamily="Chonburi, cursive"
             color={isLightTheme ? '#053D57' : 'white'}
-            fontSize="115px"
+            fontSize="100px"
           />
           <Typography
             variant="body1"
