@@ -8,7 +8,6 @@ function Header() {
   const { darkMode, toggleDarkMode } = useContext(ThemeContext)
 
   const handleToggleDarkMode = () => {
-    console.log('Toggle Dark Mode')
     toggleDarkMode()
   }
 
@@ -19,7 +18,7 @@ function Header() {
         <Button color="inherit" component={Link} to="/about" sx={{ marginRight: '3vw', fontSize: '2rem', }}>About</Button>
         <Button color="inherit" component={Link} to="/myskills" sx={{ marginRight: '3vw', fontSize: '2rem', }}>Skills</Button>
         <Button color="inherit" component={Link} to="/contactme" sx={{ marginRight: '3vw', fontSize: '2rem', }}>Contact</Button>
-        <Switch checked={darkMode} onChange={handleToggleDarkMode} color="secondary"  />
+        <Switch checked={darkMode} onChange={handleToggleDarkMode} color="secondary" />
         <Brightness4Icon sx={{ marginLeft: '1vw' }} />
       </Toolbar>
   )

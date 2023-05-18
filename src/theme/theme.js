@@ -75,7 +75,6 @@ export const lightTheme = {
     fontFamily: 'Share Tech Mono',
     h1: {
       fontFamily: 'Share Tech Mono',
-      
     },
   },
   mouseCircle: {

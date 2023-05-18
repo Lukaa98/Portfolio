@@ -1,17 +1,17 @@
-import React from 'react';
-import { styled } from '@mui/system';
-import Typography from '@mui/material/Typography';
+import React from 'react'
+import { styled } from '@mui/system'
+import Typography from '@mui/material/Typography'
 
 const BouncyText = ({ text, fontFamily, color, fontSize }) => {
   const BouncyTextStyled = styled(Typography)(({ theme }) => ({
     ...theme.bouncyText,
     fontFamily: fontFamily || theme.bouncyText.fontFamily,
-  }));
+  }))
 
   const SpanStyled = styled('span')(({ theme }) => ({
     fontSize: fontSize || theme.bouncyText.fontSize,
     color: color || theme.bouncyText.color,
-  }));
+  }))
 
   return (
     <BouncyTextStyled>
@@ -24,7 +24,7 @@ const BouncyText = ({ text, fontFamily, color, fontSize }) => {
         </React.Fragment>
       ))}
     </BouncyTextStyled>
-  );
-};
+  )
+}
 
-export default BouncyText;
+export default BouncyText

@@ -18,7 +18,6 @@ function ThemeProviderWrapper({ children }) {
   useEffect(() => {
     // Create the theme based on the dark mode
     const theme = createTheme(darkMode ? darkTheme : lightTheme)
-    
     // Apply the theme styles to the root element
     applyThemeStyles(theme)
   }, [darkMode])
