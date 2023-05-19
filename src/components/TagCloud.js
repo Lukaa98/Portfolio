@@ -10,6 +10,14 @@ const MyTagCloud = () => {
     const isLightTheme = theme.palette.mode === 'light'
     const script = document.createElement('script')
     script.src = 'https://www.goat1000.com/tagcanvas.min.js'
+   /**
+   * Copyright (C) 2010-2021 Graham Breach
+   * Code for the sphere does not belong me and it is free software: you can redistribute it and/or modify
+   * it under the terms of the GNU Lesser General Public License as published by
+   * the Free Software Foundation, either version 3 of the License, or
+   * (at your option) any later version. 
+   * For more info, see <http://www.gnu.org/licenses/>.
+   */
     script.async = true
 
     document.body.appendChild(script)
