@@ -20,13 +20,15 @@ function AboutMe() {
   return (
     <Grid container>
       <Grid item xs={12} md={6}>
-        <Box display="flex" flexDirection="column" alignItems="center" marginTop={'50px'}>
+        <Box display="flex" flexDirection="column" alignItems="left" marginTop={'50px'}>
+        <Box marginLeft= "100px">
           <BouncyText
             text="About Me"
             fontFamily="Chonburi, cursive"
             color={isLightTheme ? '#053D57' : 'white'}
             fontSize="100px"
           />
+          </Box>
           <Typography
             variant="body1"
             style={{
@@ -35,7 +37,8 @@ function AboutMe() {
               fontSize: '24px',
               textTransform: 'capitalize',
               marginTop: '20px',
-              marginLeft: '100px'
+              marginLeft: '100px',
+              textAlign: 'justify' 
             }}
           >
             Hello,

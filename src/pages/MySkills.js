@@ -13,7 +13,7 @@ function MySkills() {
     <>
       <Grid container style={{ marginTop: '50px' }}>
         <Grid item xs={12} md={6}>
-          <Box display="flex" flexDirection="column" alignItems="center">
+          <Box display="flex" flexDirection="column" alignItems="left" marginLeft={'100px'} >
             <BouncyText
               text="My Skills!"
               fontFamily="Chonburi, cursive"
