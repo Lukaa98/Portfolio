@@ -34,7 +34,7 @@ export const darkTheme = {
 
   bouncyText: {
     display: 'inline',
-    fontSize: '5rem',
+    fontSize: '100px',
     fontFamily: 'Chonburi, cursive',
     '& span': {
       display: 'inline-block',
@@ -91,7 +91,7 @@ export const lightTheme = {
 
   bouncyText: {
     display: 'inline',
-    fontSize: '5rem',
+    fontSize: '100px',
     fontFamily: 'Chonburi, cursive',
     '& span': {
       display: 'inline-block',
