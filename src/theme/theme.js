@@ -1,6 +1,6 @@
 export const darkTheme = {
   palette: {
-    mode: 'dark', // Add this line
+    mode: 'dark', 
     primary: {
       main: '#2196f3',
     },
@@ -58,7 +58,7 @@ export const darkTheme = {
 
 export const lightTheme = {
   palette: {
-    mode: 'light', // Add this line
+    mode: 'light', 
     primary: {
       main: '#2196f3',
     },
