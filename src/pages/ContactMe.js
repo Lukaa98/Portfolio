@@ -39,8 +39,7 @@ function ContactMe() {
 
       <Grid item xs={6}>
         <Box position="relative" sx={{ marginTop: '100px', marginLeft: '100px' }}>
-          <BouncyText text="Contact Me" fontFamily="Chonburi, cursive" color={isLightTheme ? '#053D57' : 'white'} fontSize="115px" />
-
+          <BouncyText text="Contact Me" color={isLightTheme ? '#053D57' : 'white'} fontSize="110px" fontFamily={theme.bouncyText.fontFamily}/>
         </Box>
 
         <Typography style={{ fontFamily: 'Share Tech Mono, monospace', fontSize: '40px', marginTop: '30px', textAlign: 'center' }}>Do you have a job offer?</Typography>
@@ -88,7 +87,7 @@ function ContactMe() {
 
 
       <Grid item xs={6}>
-        <Box display="flex" flexDirection="column" marginRight='100px' marginTop='200px'>
+        <Box display="flex" flexDirection="column" marginRight='100px' marginTop='192px'>
           <form onSubmit={(e) => sendEmail(e, handleResult, handleError)}>
             <Grid container spacing={2} style={{ marginTop: '100px' }}>
               <Grid item xs={12} sm={6}>

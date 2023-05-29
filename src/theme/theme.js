@@ -34,7 +34,6 @@ export const darkTheme = {
 
   bouncyText: {
     display: 'inline',
-    fontSize: '100px',
     fontFamily: 'Chonburi, cursive',
     '& span': {
       display: 'inline-block',
@@ -47,12 +46,6 @@ export const darkTheme = {
         transform: 'translateY(-25px)',
       },
     },
-  },
-  shareTechMonoFont: {
-    fontFamily: 'Share Tech Mono, monospace',
-  },
-  chonburiFont: {
-    fontFamily: 'Chonburi, cursive',
   },
 }
 
@@ -91,7 +84,6 @@ export const lightTheme = {
 
   bouncyText: {
     display: 'inline',
-    fontSize: '100px',
     fontFamily: 'Chonburi, cursive',
     '& span': {
       display: 'inline-block',
@@ -105,10 +97,5 @@ export const lightTheme = {
       },
     },
   },
-  shareTechMonoFont: {
-    fontFamily: 'Share Tech Mono, monospace',
-  },
-  chonburiFont: {
-    fontFamily: 'Chonburi, cursive',
-  },
+  
 }

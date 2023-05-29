@@ -2,19 +2,17 @@ import React from 'react'
 import { styled } from '@mui/system'
 import Typography from '@mui/material/Typography'
 
+const BouncyTextStyled = styled(Typography)(({ theme }) => ({
+  ...theme.bouncyText,
+}))
+
+const SpanStyled = styled('span')(({ theme }) => ({
+  color: theme.bouncyText.color,
+}))
+
 const BouncyText = ({ text, fontFamily, color, fontSize }) => {
-  const BouncyTextStyled = styled(Typography)(({ theme }) => ({
-    ...theme.bouncyText,
-    fontFamily: fontFamily || theme.bouncyText.fontFamily,
-  }))
-
-  const SpanStyled = styled('span')(({ theme }) => ({
-    fontSize: fontSize || theme.bouncyText.fontSize,
-    color: color || theme.bouncyText.color,
-  }))
-
   return (
-    <BouncyTextStyled>
+    <BouncyTextStyled style={{ fontFamily: fontFamily, fontSize: fontSize, color: color }}>
       {text.split(' ').map((word, i) => (
         <React.Fragment key={`bouncy-word-${i}`}>
           {i !== 0 && ' '}

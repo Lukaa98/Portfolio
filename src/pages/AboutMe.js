@@ -38,9 +38,9 @@ function AboutMe() {
           <Box marginLeft="100px">
             <BouncyText
               text="About Me"
-              fontFamily="Chonburi, cursive"
+              fontFamily={theme.bouncyText.fontFamily}
               color={isLightTheme ? '#053D57' : 'white'}
-              fontSize="100px" />
+              fontSize="110px" />
           </Box>
           <Typography
             variant="body1"

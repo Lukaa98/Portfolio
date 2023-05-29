@@ -8,6 +8,7 @@ import { useTheme } from '@mui/material/styles'
 
 function MySkills() {
   const theme = useTheme()
+  const isLightTheme = theme.palette.mode === 'light'
   
   return (
     <>
@@ -17,9 +18,9 @@ function MySkills() {
             <BouncyText
               text="My Skills!"
               fontFamily={theme.bouncyText.fontFamily}
-              color={theme.palette.text.primary}
-              fontSize={theme.bouncyText.fontSize}
-            />
+              color={isLightTheme ? '#053D57' : 'white'}
+              fontSize="110px"
+              />
             <MyTagCloud />
           </Box>
         </Grid>
