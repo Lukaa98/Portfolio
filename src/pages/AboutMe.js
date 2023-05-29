@@ -42,10 +42,7 @@ function AboutMe() {
               color={isLightTheme ? '#053D57' : 'white'}
               fontSize="110px" />
           </Box>
-          <Typography
-            variant="body1"
-            style={{ fontFamily: 'Share Tech Mono, monospace', color: isLightTheme ? '#053D57' : 'white', fontSize: '24px', 
-            textTransform: 'capitalize', marginTop: '20px', marginLeft: '100px', textAlign: 'justify'}}>
+          <Typography variant="h1">
 
             Hello, My name is Luka, I was born and raised in Georgia, therefore accessing new technologies and learning about them was very difficult and challenging. But, I was always amazed by the capabilities of technology and I knew from my childhood that I would dedicate my energy to build a career into technology. Fortunately, I had an opportunity to move to the USA where I had a chance to follow my passion and that was exactly what I did.
             <br></br>

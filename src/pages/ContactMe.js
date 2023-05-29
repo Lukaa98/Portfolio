@@ -52,7 +52,7 @@ function ContactMe() {
               <Box style={boxStyle}>
                 <EmailIcon sx={{ fontSize: '45px', color: isLightTheme ? 'white' : '#053D57' }} />
               </Box>
-              <Typography variant="body1" style={iconTypographyStyle}>Niqabadzeluka@gmail.com</Typography>
+              <Typography style={iconTypographyStyle}>Niqabadzeluka@gmail.com</Typography>
             </Box>
           </Paper>
 
@@ -67,7 +67,7 @@ function ContactMe() {
                   </IconButton>
                 </Box>
 
-                <Typography variant="body1" style={iconTypographyStyle}>Github</Typography>
+                <Typography style={iconTypographyStyle}>Github</Typography>
               </Box>
             </Paper>
 
@@ -78,7 +78,7 @@ function ContactMe() {
                     <LinkedInIcon sx={{ fontSize: '45px', color: isLightTheme ? 'white' : '#053D57' }} />
                   </IconButton>
                 </Box>
-                <Typography variant="body1" style={iconTypographyStyle}>LinkedIn</Typography>
+                <Typography style={iconTypographyStyle}>LinkedIn</Typography>
               </Box>
             </Paper>
           </Box>
@@ -129,7 +129,7 @@ function ContactMe() {
             </Box>
 
             <Box marginTop={'20px'}>
-              {emailStatus && (<Typography variant="body1">{emailStatus}</Typography>)}
+              {emailStatus && (<Typography >{emailStatus}</Typography>)}
             </Box>
           </form>
 

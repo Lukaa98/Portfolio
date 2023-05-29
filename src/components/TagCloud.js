@@ -35,7 +35,7 @@ const MyTagCloud = () => {
 
         // eslint-disable-next-line no-undef
         TagCanvas.Start('myCanvas', 'tags', {
-          textColour: isLightTheme ? '#053D57' : 'white',
+          textColour: isLightTheme ? '#006884' : '#97BCC7',
           outlineColour: 'transparent',
           reverse: false,
           depth: 0.8,

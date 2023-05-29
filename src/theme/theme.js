@@ -2,23 +2,29 @@ export const darkTheme = {
   palette: {
     mode: 'dark', 
     primary: {
-      main: '#2196f3',
+      main: '#FF0000', //nothing
     },
     secondary: {
-      main: '#f50057',
+      main: '#FF0000', //nothing
     },
     background: {
-      default: '#03141D',
+      default: '#03141D', // bacgkround
     },
     text: {
-      primary: '#97BCC7',
+      primary: '#97BCC7', //applies to headers, "softwrae engineer in homepage" and "Do you have a job offer? Send me a message! inside contact"
     },
   },
-  typography: {
+  typography: { //nothing
     fontFamily: 'Share Tech Mono, Arial',
-    fontSize: '100rem',
-    h1: {
-      fontFamily: '"Share Tech Mono", "Arial", sans-serif',
+    fontSize: '1000rem',
+    h1: { // used for text inside about me
+      fontFamily: 'Share Tech Mono, monospace',
+      color: '#97BCC7',
+      fontSize: '24px',
+      textTransform: 'capitalize',
+      marginTop: '20px',
+      marginLeft: '100px',
+      textAlign: 'justify',
     },
   },
   mouseCircle: {
@@ -53,22 +59,28 @@ export const lightTheme = {
   palette: {
     mode: 'light', 
     primary: {
-      main: '#2196f3',
+      main: '#FF0000', //nothing
     },
     secondary: {
-      main: '#f50057',
+      main: '#FF0000', //nothing
     },
     background: {
-      default: '#c3e0e8',
+      default: '#c3e0e8', //background
     },
     text: {
-      primary: '#006884',
+      primary: '#006884', //applies to headers, "softwrae engineer in homepage" and "Do you have a job offer? Send me a message! inside contact"
     },
   },
   typography: {
     fontFamily: 'Share Tech Mono',
-    h1: {
-      fontFamily: 'Share Tech Mono',
+    h1: { // used for text inside about me
+      fontFamily: 'Share Tech Mono, monospace',
+      color: '#006884',
+      fontSize: '24px',
+      textTransform: 'capitalize',
+      marginTop: '20px',
+      marginLeft: '100px',
+      textAlign: 'justify',
     },
   },
   mouseCircle: {
