@@ -17,9 +17,9 @@ function Home() {
     <Box
       sx={{ height: '90vh', display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingLeft: '150px', paddingRight: '150px', }}>
       <Box>
-        <BouncyText text="Hi, I am Luka!" fontFamily="Chonburi, cursive" color={isLightTheme ? '#053D57' : 'white'} fontSize="115px" />
+        <BouncyText text="Hi, I am Luka!" color={isLightTheme ? '#053D57' : 'white'} fontSize="110px" />
         <Box sx={{ marginTop: '20px' }}>
-          <BouncyText text="Software Engineer" fontFamily="Chonburi, cursive" />
+          <BouncyText text="Software Engineer" fontSize="79px"/>
         </Box>
         <Box sx={{ marginTop: '20px' }}>
           <Button variant="outlined" component={Link} to="/contactme"

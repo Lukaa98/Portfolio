@@ -9,22 +9,23 @@ import { useTheme } from '@mui/material/styles'
 function MySkills() {
   const theme = useTheme()
   const isLightTheme = theme.palette.mode === 'light'
+  
   return (
     <>
       <Grid container style={{ marginTop: '50px' }}>
         <Grid item xs={12} md={6}>
-          <Box display="flex" flexDirection="column" alignItems="left" marginLeft={'100px'} >
+          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems:'left', marginLeft:'100px' }}>
             <BouncyText
               text="My Skills!"
-              fontFamily="Chonburi, cursive"
+              fontFamily={theme.bouncyText.fontFamily}
               color={isLightTheme ? '#053D57' : 'white'}
-              fontSize="100px"
-            />
+              fontSize="110px"
+              />
             <MyTagCloud />
           </Box>
         </Grid>
         <Grid item xs={12} md={6}>
-          <Box display="flex" flexDirection="column" alignItems="center" marginTop={'40px'}>
+          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: '40px' }}>
             <iframe
               src={process.env.PUBLIC_URL + '/ResumeLukaNikabadze.pdf'}
               frameBorder={0}
