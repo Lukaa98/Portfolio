@@ -69,6 +69,7 @@ const MyTagCloud = () => {
         <ListItem><a href="#">ElasticSearch</a></ListItem>
         <ListItem><a href="#">Kafka</a></ListItem>
         <ListItem><a href="#">CSS</a></ListItem>
+        <ListItem><a href="#">HTML</a></ListItem>
         <ListItem><a href="#">SprintBoot</a></ListItem>
         <ListItem><a href="#">Git</a></ListItem>
         <ListItem><a href="#">Postman</a></ListItem>

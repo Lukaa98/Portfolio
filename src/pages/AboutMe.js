@@ -43,15 +43,19 @@ function AboutMe() {
               fontSize="110px" />
           </Box>
           <Typography variant="h1">
-
-            Hello, My name is Luka, I was born and raised in Georgia, therefore accessing new technologies and learning about them was very difficult and challenging. But, I was always amazed by the capabilities of technology and I knew from my childhood that I would dedicate my energy to build a career into technology. Fortunately, I had an opportunity to move to the USA where I had a chance to follow my passion and that was exactly what I did.
-            <br></br>
-            <br></br>I started learning computer science at CUNY Brooklyn college where I gathered enormous knowledge of computer science fundamentals as well as got some experience while doing an internship as a web developer and worked on a project with college teammates.
-            <br></br>
-            <br></br>
-            Currently, I am a student at Perscholas where I am committing 450+ hours of studying Full Stack java development. Here I was able to improve technical as well as professional skills that were lacking before. Perscholas helped me to become a more knowledgeable and confident programmer.
-            <br></br>
-            <br></br>I am a critical thinker with great communication skills. I love working with groups, brainstorming with my teammates, and solving problems whether it is a programming or a different challenge.
+              Hello, I am Luka, a passionate and dedicated technology professional. Originally from Georgia, I pursued my love for technology in the USA. At CUNY Brooklyn College, I gained a solid foundation in computer science fundamentals and interned as a web developer, enhancing my skills.
+              <br></br>
+              <br></br>
+              I furthered my expertise through the Perscholas program, dedicating over 450 hours to Full Stack Development. This program improved my skills and made me a more confident programmer.
+              <br></br>
+              <br></br>
+              As a full stack software engineer at Optum/TEKsystems, I contributed to the development of new functionalities, collaborated in an Agile environment, and ensured secure user access. Notable achievements include developing a React Next.js application utilizing the GitHub API and implementing design elements for consistent branding.
+              <br></br>
+              <br></br>
+              I am currently seeking new opportunities to expand my skills and contribute to organizational success. With strong critical thinking and communication skills, I thrive in collaborative environments, enjoying problem-solving and teamwork. With a strong technical background and passion for technology, I am confident in making a significant impact.
+              <br></br>
+              <br></br>
+              Thank you for considering my profile. I am excited about potential opportunities and exploring how I can contribute to your organizations growth and success.
           </Typography>
         </Box>
       </Grid>
