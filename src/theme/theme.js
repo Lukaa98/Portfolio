@@ -2,10 +2,10 @@ export const darkTheme = {
   palette: {
     mode: 'dark', 
     primary: {
-      main: '#FF0000', //nothing
+      main: '#FF0000', 
     },
     secondary: {
-      main: '#FF0000', //nothing
+      main: '#FF0000', 
     },
     background: {
       default: '#03141D', // bacgkround
@@ -58,10 +58,10 @@ export const lightTheme = {
   palette: {
     mode: 'light', 
     primary: {
-      main: '#FF0000', //nothing
+      main: '#FF0000', 
     },
     secondary: {
-      main: '#FF0000', //nothing
+      main: '#FF0000', 
     },
     background: {
       default: '#c3e0e8', //background
