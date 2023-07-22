@@ -66,7 +66,24 @@ const MyTagCloud = () => {
       <canvas ref={canvasRef} id="myCanvas" width="700" height="700"></canvas>
       <Box id="tags" style={{ display: 'none' }}>
         <ListItem>
-          <a href="#">Java</a>
+        <a href="#">Java</a>
+        <a href="#">HTML</a>
+        <a href="#">JavaScript</a>
+        <a href="#">SQL</a>
+        <a href="#">Jenkins</a>
+        <a href="#">GCP</a>
+        <a href="#">GraphQL</a>
+        <a href="#">AWS</a>
+        <a href="#">ElasticSearch</a>
+        <a href="#">CSS</a>
+        <a href="#">React</a>
+        <a href="#">SpringBoot</a>
+        <a href="#">Git</a>
+        <a href="#">Docker</a>
+        <a href="#">Kafka</a>
+        <a href="#">PostMan</a>
+        <a href="#">Azure</a>
+        <a href="#">SnowFlake</a>
         </ListItem>
         {/* More list items... */}
       </Box>
